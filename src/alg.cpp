@@ -35,6 +35,7 @@ uint64_t count = 0;
             return i;
         }
     }
+return 0;
 }
 uint64_t nextPrime(uint64_t value) {
 bool flag = false;
@@ -52,6 +53,7 @@ bool flag = false;
             return i;
         }
     }
+return 0;
 }
 
 uint64_t sumPrime(uint64_t hbound) {

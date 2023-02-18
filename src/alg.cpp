@@ -61,7 +61,7 @@ uint64_t count = 0;
     }
     bool flag = false;
     //int l_count = 0;
-    for (uint64_t i = 2; i<hbound; i++) {
+    for (uint64_t i = 2; i < hbound; i++) {
         flag = false;
         for (uint64_t t = 2; t < i; t++) {
             if (i % t == 0) {

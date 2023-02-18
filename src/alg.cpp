@@ -7,8 +7,6 @@ bool checkPrime(uint64_t value) {
 for (uint64_t t = 2; t < value; t++) {
         if (value % t == 0) {
             return false;
-            
-
         }
     }
     return true;
@@ -30,8 +28,7 @@ uint64_t count = 0;
         }
         if (flag == true) {
             continue;
-        }
-        else {
+        } else {
             count++;
         }
         if (count == n) {
@@ -51,8 +48,7 @@ bool flag = false;
         }
         if (flag == true) {
             continue;
-        }
-        else {
+        } else {
             return i;
         }
     }
@@ -65,7 +61,7 @@ uint64_t count = 0;
     }
     bool flag = false;
     //int l_count = 0;
-    for(uint64_t i=2 ;i<hbound;i++) {
+    for (uint64_t i = 2; i<hbound; i++) {
         flag = false;
         for (uint64_t t = 2; t < i; t++) {
             if (i % t == 0) {
